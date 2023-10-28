@@ -93,8 +93,14 @@ revTuple = tuple(list)
 print(type(revTuple))
 print(revTuple)
 
+# Adding two tuples
 
+tup1 = (1,2,3,4)
+tup2 = ("John","Micheal")
 
+tup3 = tup1 + tup2
+print(tup3)
+print(type(tup3))
 
 
 
