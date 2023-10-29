@@ -122,3 +122,4 @@ marks = {
         }
 
 print(sum(marks.values()))
+
