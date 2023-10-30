@@ -15,11 +15,11 @@ print(result)
 
 alphabets = "abcdefghijklmnopqrstuvwxyz"
 
-reverse = alphabets[ : : -1]
+reverse = alphabets[ : : -1] # -1 represents right to left moving by 1 step
 
 # using Zip function
 
-dict1 = dict(zip(alphabets,reverse))
+dict1 = dict(zip(alphabets,reverse)) # performs zipping then a dictionary
 
 print(dict1)
 
@@ -29,3 +29,4 @@ for i in word :
     res += dict1[i]
 
 print(res)
+
